@@ -1,10 +1,10 @@
-import React from 'react'
 import "./TarjetasOng.css"
 export default function TarjetasOng({Data}) {
   return (
     <div className='classTarjeta'>
-      <h2>{Data.name}</h2>
-      <h4>{Data.territory}</h4>
+      <>
+      <h1><a  className='nombreclass' href={'/Localizacion/' + Data.id}>{Data.name}</a></h1>
+      </>
     </div>
   );
 }

@@ -10,8 +10,13 @@ export const GetPersonajes =async()=>{
     return responce.data;
 }
 
-export const GetOng= async()=>{
+export const GetLocalizacion= async()=>{
     const url ="/locations";
     const responce =await instance.get(url);
     return responce.data.results;
+}
+export const GetLocUni= async(id,state)=>{
+    const url ='/locations/';
+    const responce =await instance.get(url + id);
+   state(responce.data);
 }

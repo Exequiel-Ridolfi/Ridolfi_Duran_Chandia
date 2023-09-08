@@ -1,14 +1,15 @@
 
 import React, {useState,useEffect } from 'react'
-import { GetOng } from '../../api'
+import { GetLocalizacion } from '../../api'
 import TarjetasOng from '../TarjetasOng/TarjetasOng';
+import Navbar from '../Navbar/Navbar';
 export default function Ongs() {
-    GetOng()
+    GetLocalizacion()
     const [Ong, setOng] = useState([])
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const data = await GetOng();
+            const data = await GetLocalizacion();
             console.log(data)
             setOng(data);
           } catch (error) {
@@ -19,7 +20,9 @@ export default function Ongs() {
         fetchData();
       }, []);
   return (
+    
     <div>
+      <Navbar/>
       {Ong.map((Ong)=>(<TarjetasOng key={Ong.id} Data={Ong}/>))}
     </div>
   )
