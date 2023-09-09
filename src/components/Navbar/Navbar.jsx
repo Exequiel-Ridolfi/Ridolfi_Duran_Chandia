@@ -4,7 +4,7 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <nav className=' Navbar'>
-    <NavLink to='' className='Buton'>Personajes</NavLink>
+    <NavLink to='/Personajes' className='Buton'>Personajes</NavLink>
     <NavLink to='/Localizacion' className='Buton'>Localizaciones</NavLink>
     <NavLink to='/' className='Buton'>Salir</NavLink>
   </nav>

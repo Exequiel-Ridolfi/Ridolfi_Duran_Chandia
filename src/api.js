@@ -7,7 +7,8 @@ const instance =axios.create({
 export const GetPersonajes =async()=>{
     const url="/characters";
     const responce =await instance.get(url);
-    return responce.data;
+    return responce.data.results;
+    
 }
 
 export const GetLocalizacion= async()=>{
