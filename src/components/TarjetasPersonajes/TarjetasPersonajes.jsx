@@ -1,6 +1,7 @@
 import React from 'react'
-import "./TarjetasPersonajes.css"
+
 import { Link } from 'react-router-dom';
+import './TarjetasPersonajes.css';
 export default function TarjetasPersonajes({Data}) {
   return (
     <div className='classTarjeta'>

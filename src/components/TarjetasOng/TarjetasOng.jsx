@@ -1,4 +1,4 @@
-import "./TarjetasOng.css"
+
 export default function TarjetasOng({Data}) {
   return (
     <div className='classTarjeta'>

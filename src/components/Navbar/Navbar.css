@@ -1,9 +1,26 @@
-.Buton{
-    background: rgba(138, 71, 8, 0.863);
+.Buton {
+    background: linear-gradient(135deg, #FF6B6B, #FFCA3A);
     color: white;
-    padding: 10px 30px ;
+    padding: 12px 32px;
+    margin: 10px;
     text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    display: inline-block;
+    outline: none;
 }
-.buton:hover{
-    background: rgb(224, 120, 9);
+
+.Buton:hover {
+    background: linear-gradient(135deg, #FF4E50, #FFA510);
+    transform: scale(1.05);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.Buton:active {
+    transform: scale(0.98);
+    box-shadow: none;
 }

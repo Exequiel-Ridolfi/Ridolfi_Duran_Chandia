@@ -1,0 +1,45 @@
+/* DetallePersonaje.css */
+
+/* Estilo para el componente DetallePersonaje */
+.container {
+  max-width: 800px;
+  margin: 900px auto; /* Añade un margen superior para separarlo del navbar */
+  padding: 300px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.details {
+  margin-top: 20px;
+}
+
+.details h2 {
+  font-size: 18px;
+  margin: 8px 0;
+  background: linear-gradient(135deg, #FF6B6B, #FFCA3A);
+}
+
+.navbar {
+  background-color: #333;
+  color: #000000;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.return-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #333;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.return-link:hover {
+  background-color: #b7ff00;
+}
