@@ -28,8 +28,8 @@ const DetallePersonaje = () => {
      <Navbar />
       <h2>Nombre del personaje: {detallePersonaje.name}</h2>
       <h2>Genero del personaje: {detallePersonaje.gender}</h2>
-      <h2>Estado del personaje: {detallePersonaje.occupation}</h2>
-      <h2>Estado del personaje: {detallePersonaje.species}</h2>
+      <h2>Rol del personaje: {detallePersonaje.occupation}</h2>
+      <h2>Especie del personaje: {detallePersonaje.species}</h2>
       </div>
       {/* Aquí puedes mostrar otros detalles del personaje */}
     </>
