@@ -1,0 +1,59 @@
+/* Estilo del contenedor principal */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FF6B6B; /* Color de fondo similar al de la tarjeta */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo del formulario de inicio de sesión */
+  .login-container {
+    background: linear-gradient(135deg, #FF6B6B, #FFCA3A);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    color: #fff; /* Color de texto similar al de la tarjeta */
+  }
+  
+  /* Estilo del encabezado del formulario */
+  .login-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de los campos de entrada */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilo del botón de inicio de sesión */
+  .login-button {
+    background-color: #FFCA3A; /* Color de fondo similar al de la tarjeta */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Estilo del botón de inicio de sesión al pasar el ratón */
+  .login-button:hover {
+    background-color: #FFB200; /* Color de fondo al pasar el ratón similar al de la tarjeta */
+  }
+  
+  /* Estilo del mensaje de error */
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
