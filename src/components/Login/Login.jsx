@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Importa useNavigate
 import './Login.css'; // Importa el archivo CSS
-console.log( "El usuario es:  usuario1")
-console.log( "La contraseña es :  12345 ");
+console.log( "El usuario es:  usuario")
+console.log( "La contraseña es :  123 ");
 export default function Login({ onLogin }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
